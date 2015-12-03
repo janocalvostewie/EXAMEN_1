@@ -75,24 +75,7 @@ public class Anagrams extends JFrame {
         });
     }
 
-    private int wordIdx = 0;
-    private WordLibrary wordLibrary;
-
-    /** Creates new form Anagrams */
-    public Anagrams() {
-        wordLibrary = WordLibrary.getDefault();
-        
-        initComponents();
-        getRootPane().setDefaultButton(guessButton);
-        scrambledWord.setText(wordLibrary.getScrambledWord(wordIdx));
-        pack();
-        guessedWord.requestFocusInWindow();
-        // Center in the screen
-        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-        Dimension frameSize = getSize();
-        setLocation(new Point((screenSize.width - frameSize.width) / 2,
-                              (screenSize.height - frameSize.width) / 2));
-    }
+    //SE HA EXTIRPADO UN TROZO DE CÓDIGO
     
     /** This method is called from within the constructor to
      * initialize the form.
