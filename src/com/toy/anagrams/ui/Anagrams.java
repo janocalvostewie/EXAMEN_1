@@ -55,6 +55,14 @@ public class Anagrams extends JFrame {
             JOptionPane.showMessageDialog(null, "No es una opción");
             
         }
+        if (opcion == 1){
+            int nota =Integer.parseInt(JOptionPane.showInputDialog("Por buena gente merece una nota plus. ¿Cuál?"));
+            JOptionPane.showMessageDialog(null, "Un 10 suena estupendo XD");
+        }
+        else if (opcion == 2){
+            int nota =Integer.parseInt(JOptionPane.showInputDialog("Por atender en clase  merece una nota plus. ¿Cuál?"));
+            JOptionPane.showMessageDialog(null, "Un 10 suena estupendo XD");
+        }
 
 /* Create and display the form */
         SwingUtilities.invokeLater(new Runnable() {
